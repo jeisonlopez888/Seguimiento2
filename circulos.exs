@@ -37,7 +37,7 @@ defmodule CirculosConcentricos do
         alto = cy * 2
 
         contenido_svg = """
-        <svg xmlns="[suspicious link removed]" width="#{ancho}" height="#{alto}" viewBox="0 0 #{ancho} #{alto}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="#{ancho}" height="#{alto}" viewBox="0 0 #{ancho} #{alto}">
           <!-- Fondo oscuro -->
           <rect width="100%" height="100%" fill="#1a1a2e" />
 
